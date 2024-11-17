@@ -1,0 +1,132 @@
+body {
+    background-color: #E6FFFA; /* Light teal background */
+    font-family: 'Aptos', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  h1 {
+    color: #065F46; /* Dark teal */
+    text-align: center;
+  }
+  
+  .balance-overview {
+    padding: 16px;
+    background-color: #CCFBF1; /* Light teal background */
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  #net-balance {
+    color: #0F766E; /* Medium teal for net balance */
+  }
+  
+  #total-income {
+    color: #064E3B; /* Dark teal for income */
+  }
+  
+  #total-expenses {
+    color: #DC2626; /* Red for expenses */
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #A7F3D0; /* Light teal border */
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  input:focus, select:focus {
+    border-color: #38B2AC; /* Focus teal */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #2C7A7B; /* Darker teal */
+    color: white;
+    border: none;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #285E61; /* Dark teal hover */
+  }
+  
+  button[type="button"] {
+    background-color: #81E6D9; /* Light teal */
+    color: black;
+    border: none;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #4FD1C5; /* Slightly darker teal */
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: #065F46; /* Dark teal for text */
+  }
+  
+  .filters label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .filters input[type="radio"] {
+    margin-right: 6px;
+  }
+  
+  #entries-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background-color: #CCFBF1; /* Light teal background */
+    border: 1px solid #A7F3D0; /* Light teal border */
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .entry .buttons button {
+    background: none;
+    border: none;
+    color: #065F46; /* Dark teal */
+    cursor: pointer;
+  }
+  
+  .entry .buttons button:hover {
+    text-decoration: underline;
+  }
+  
+  .entry .delete {
+    color: #DC2626; /* Red for delete */
+  }
+  
